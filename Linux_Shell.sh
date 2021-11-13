@@ -43,3 +43,35 @@ if [[ ${answer,,}  == 'y' ]] ; then
 elif [[ ${answer,,} == 'n' ]] ; then
     echo 'NO'
 fi
+
+# More on Conditionals
+read X
+read Y
+read Z
+if (( $X == $Y )); then
+    if (( $X == $Z )); then
+        if (( $Y == $Z )); then
+            echo 'EQUILATERAL'
+        fi
+    fi
+fi
+if (( $X == $Y )); then
+    if (( $X != $Z )); then
+        echo 'ISOSCELES'
+    fi
+elif (( $X == $Z )); then
+    if (( $X != $Y )); then
+        echo 'ISOSCELES'
+    fi
+elif (( $Y == $Z )); then
+    if (( $Y != $X )); then
+        echo 'ISOSCELES'
+    fi
+fi
+if (( $X != $Y )); then
+    if (( $X != $Z )); then
+        if (( $Y != $Z )); then
+            echo 'SCALENE'
+        fi
+    fi
+fi
