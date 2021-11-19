@@ -36,6 +36,7 @@ else
 fi
 
 # Getting started with conditionals
+#!/bin/bash
 read answer
 
 if [[ ${answer,,}  == 'y' ]] ; then
@@ -45,6 +46,7 @@ elif [[ ${answer,,} == 'n' ]] ; then
 fi
 
 # More on Conditionals
+#!/bin/bash
 read X
 read Y
 read Z
@@ -75,3 +77,8 @@ if (( $X != $Y )); then
         fi
     fi
 fi
+
+# Arithmetic Operations
+#!/bin/bash
+read input
+printf "%.3f\n" `echo "$input" | bc -l`
