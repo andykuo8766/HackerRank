@@ -10,3 +10,17 @@ if __name__ == '__main__':
     print(a+b)
     print(a-b)
     print(a*b)
+
+# Python: Division
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(int(a/b))
+    print(float(a)/b)
+
+# Loops
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        print(i*i)
+
