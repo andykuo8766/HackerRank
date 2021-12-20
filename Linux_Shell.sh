@@ -129,3 +129,11 @@ for ((i=0; i<63; i++)); do
     done
     echo
 done
+
+
+# Cut #1
+#!/bin/bash
+while read line
+do
+echo $line | cut -c3
+done
