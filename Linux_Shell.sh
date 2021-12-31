@@ -137,3 +137,7 @@ while read line
 do
 echo $line | cut -c3
 done
+
+
+# Cut #2
+echo "$(cut -c2,7)"
