@@ -24,3 +24,11 @@
 * Compute the Average
 * Functions and Fractals - Recursive Trees - Bash!
 * Cut #1
+
+## Python : python.py
+* Say "Hello, World!" With Python
+* Arithmetic Operators
+* Python: Division
+* Loops
+* Write a function
+
