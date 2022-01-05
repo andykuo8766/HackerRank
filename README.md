@@ -34,3 +34,8 @@
 
 ## Java : Solution.java
 
+* Welcome to Java!
+* Java Stdin and Stdout II
+* Java Output Formatting
+
+
