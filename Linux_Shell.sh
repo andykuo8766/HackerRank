@@ -141,3 +141,6 @@ done
 
 # Cut #2
 echo "$(cut -c2,7)"
+
+# Cut #3
+cut -c2-7
