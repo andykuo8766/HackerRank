@@ -24,6 +24,7 @@
 * Compute the Average
 * Functions and Fractals - Recursive Trees - Bash!
 * Cut #1
+* Cut #2
 
 ## Python : python.py
 * Say "Hello, World!" With Python
