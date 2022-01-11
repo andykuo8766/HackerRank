@@ -25,6 +25,7 @@
 * Functions and Fractals - Recursive Trees - Bash!
 * Cut #1
 * Cut #2
+* Cut #3
 
 ## Python : python.py
 * Say "Hello, World!" With Python
