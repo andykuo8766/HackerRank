@@ -147,3 +147,6 @@ cut -c2-7
 
 # Cut #4
 echo "$(cut -c1-4)"
+
+# Cut #5
+cut -f-3
