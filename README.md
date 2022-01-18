@@ -28,6 +28,7 @@
 * Cut #3
 * Cut #4
 * Cut #5
+* Cut #6
 
 ## Python : python.py
 * Say "Hello, World!" With Python
