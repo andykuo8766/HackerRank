@@ -150,3 +150,6 @@ echo "$(cut -c1-4)"
 
 # Cut #5
 cut -f-3
+
+# Cut #6
+cut -c13-
